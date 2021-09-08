@@ -35,9 +35,9 @@ main #textoPrincipal, main #textoPrincipal h1, main #textoPrincipal h1{
 }
 
 main #textoPrincipal {
-    color: indigo;
+    color: #1D002E;
 }
 
 main #tarjetas .categoria {
-    border: solid 1px indigo;
+    border: solid 1px #1D002E;
 }
