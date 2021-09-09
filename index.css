@@ -95,6 +95,13 @@ main {
     bottom: 200px;
 }
 
+#botone1 img:hover, #botone2 img:hover {
+    cursor: pointer;
+    background-color: indigo;
+    border-radius: 50%;
+
+}
+
 #botone1 a img, #botone2 a img {
     height: 40px;
 }
