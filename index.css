@@ -111,11 +111,11 @@ main {
     justify-content: center;
 }
 
-.container {
+.containerPrincipal {
     background-image: url(/assets/Fondos/principal.jpg);
 }
 
-/*.background-history {
+.background-history {
     background-image: url(/assets/Fondos/history.png);
 }
 
