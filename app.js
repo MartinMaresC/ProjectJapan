@@ -245,3 +245,44 @@ function fondo9rem(){
     container.classList.remove('background-map');
     container.classList.add('containerPrincipal');
 }
+/* Aquì se colocan los enlaces de as categorias */
+
+function Href0(){
+    window.open('/categorias/history.html','_blank');
+}
+
+function Href1(){
+    window.open('/categorias/culture.html','_blank');
+}
+/*
+function Href2(){
+    window.open('/categorias/history.html','_blank');
+}
+
+function Href3(){
+    window.open('/categorias/.html','_blank');
+}
+
+function Href4(){
+    window.open('/categorias/history.html','_blank');
+}
+
+function Href5(){
+    window.open('/categorias/history.html','_blank');
+}
+
+function Href6(){
+    window.open('/categorias/history.html','_blank');
+}
+
+function Href7(){
+    window.open('/categorias/history.html','_blank');
+}
+
+function Href8(){
+    window.open('/categorias/history.html','_blank');
+}
+
+function Href9(){
+    window.open('/categorias/history.html','_blank');
+*/
