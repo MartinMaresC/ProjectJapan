@@ -11,33 +11,107 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
-main #tarjetas {
-    display: flex;
-    flex-direction: row;
-}
-
-main #tarjetas .categoria {
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    margin: 10px;
-}
-
-main #textoPrincipal, main #textoPrincipal h1, main #textoPrincipal h1{
+#textoPrincipal {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: #1D002E;
     padding: 10px;
+    font-size: 45px;
+}
+
+#titulo {
+    font-weight: 1000;
+    font-size: 130px;
+}
+
+#subtitulo {
+    font-weight: 300;
+}
+
+#tarjetas {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    color: #1D002E;
+    align-items: center;
+    justify-content: center;
+}
+
+.categoria {
+    border: 1px dotted #1D002E;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 320px;
+    width: 235px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.categoria:hover {
+    height: 340px;
+    width: 245px;
+    cursor: pointer;
+    background-color: rgba(234, 187, 236, 0.5);
+    transition: .5s;
+}
+
+.categoria img {
+    height: 100px;
     margin: 10px;
 }
 
-main #textoPrincipal {
-    color: #1D002E;
+.categoria p {
+    text-align: justify;
+    margin: 10px;
 }
 
-main #tarjetas .categoria {
-    border: solid 1px #1D002E;
+#c5, #c6, #c7, #c8, #c9 {
+    display: none;
+
 }
+
+#botone1 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 5px;
+    bottom: 200px;
+}
+
+#botone2 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 5px;
+    bottom: 200px;
+}
+
+#botone1 a img, #botone2 a img {
+    height: 40px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/assets/Fondos/principal.jpg);
+    z-index: -1;
+    background-repeat: repeat;
+    background-size: cover;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+
+   
+
+
+/* #1D002E*/
+
