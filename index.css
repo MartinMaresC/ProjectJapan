@@ -61,7 +61,7 @@ main {
     width: 245px;
     cursor: pointer;
     background-color: rgba(234, 187, 236, 0.5);
-    transition: .5s;
+    transition: 1s;
 }
 
 .categoria img {
@@ -102,16 +102,50 @@ main {
 .container {
     width: 100vw;
     height: 100vh;
-    background-image: url(/assets/Fondos/principal.jpg);
+    /*background-image: url(/assets/Fondos/principal.jpg);*/
     z-index: -1;
     background-repeat: repeat;
     background-size: cover;
     position: absolute;
     align-items: center;
     justify-content: center;
+}
 
-   
+.container {
+    background-image: url(/assets/Fondos/principal.jpg);
+}
 
+/*.background-history {
+    background-image: url(/assets/Fondos/history.png);
+}
+
+.background-culture {
+    background-image: url(/assets/Fondos/culture.jpg);
+}
+.background-gastronomy {
+    background-image: url(/assets/Fondos/gastronomy.jpg);
+}
+.background-news {
+    background-image: url(/assets/Fondos/news.jpg);
+}
+.background-arts {
+    background-image: url(/assets/Fondos/arts.jpg);
+}
+.background-events {
+    background-image: url(/assets/Fondos/events.jpg);
+}
+.background-people {
+    background-image: url(/assets/Fondos/people.png);
+}
+.background-places {
+    background-image: url(/assets/Fondos/places.jpg);
+}
+.background-olimpics {
+    background-image: url(/assets/Fondos/olimpics.jpg);
+}
+.background-map {
+    background-image: url(/assets/Fondos/maps.png);
+}
 
 /* #1D002E*/
 
