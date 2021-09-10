@@ -248,41 +248,43 @@ function fondo9rem(){
 /* Aquì se colocan los enlaces de as categorias */
 
 function Href0(){
-    window.open('/categorias/history.html','_blank');
+    window.open('/categorias/history.html','_self');
 }
 
 function Href1(){
-    window.open('/categorias/culture.html','_blank');
+    window.open('/categorias/culture.html','_self');
 }
-/*
+
 function Href2(){
-    window.open('/categorias/history.html','_blank');
+    window.open('/categorias/gastronomy.html','_self');
 }
 
 function Href3(){
-    window.open('/categorias/.html','_blank');
+    window.open('/categorias/arts.html','_self');
 }
 
 function Href4(){
-    window.open('/categorias/history.html','_blank');
+    window.open('/categorias/events.html','_self');
 }
 
 function Href5(){
-    window.open('/categorias/history.html','_blank');
+    window.open('/categorias/places.html','_self');
 }
 
 function Href6(){
-    window.open('/categorias/history.html','_blank');
+    window.open('/categorias/people.html','_self');
 }
 
 function Href7(){
-    window.open('/categorias/history.html','_blank');
+    window.open('/categorias/news.html','_self');
 }
 
+
+/*
 function Href8(){
-    window.open('/categorias/history.html','_blank');
+    window.open('/categorias/history.html','_self');
 }
 
 function Href9(){
-    window.open('/categorias/history.html','_blank');
+    window.open('/categorias/history.html','_self');
 */
