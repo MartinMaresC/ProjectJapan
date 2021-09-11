@@ -5,55 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>文化 - Culture</title>
+    <link rel="stylesheet" href="/categorias/assetsCulture/cultureStyle.css">
+    <title>イベント - Events</title>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li>
+                <li onclick="history();" class="item" id="item">
                     <img src="/assets/icons/historia.png" alt="">
                     History
                 </li>
-                <li>
+                <li class="item" id="item1" onclick="culture();">
                     <img src="/assets/icons/cultura.png" alt="">
                     Culture
                 </li>
-                <li>
+                <li class="item" id="item2" onclick="gastronomy();">
                     <img src="/assets/icons/gastronomia.png" alt="">
                     Gastronomy
                 </li>
-                <li>
+                <li class="item" id="item3" onclick="arts();">
                     <img src="/assets/icons/artes.png" alt="">
                     Arts
                 </li>
-                <li>
+                <li class="item" id="item4" onclick="events();">
                     <img src="/assets/icons/eventos.png" alt="">
                     Events
                 </li>
-                <li>
+                <li class="item" id="item5" onclick="places();">
                     <img src="/assets/icons/destino.png" alt="">
                     Places
                 </li>
-                <li>
+                <li class="item" id="item6" onclick="people();">
                     <img src="/assets/icons/personajes.png" alt="">
                     People
                 </li>
-                <li>
+                <li class="item" id="item7" onclick="news();">
                     <img src="/assets/icons/noticias.png" alt="">
                     News
                 </li>
-                <li>
+                <li class="item" id="item8" onclick="olimpics();">
                     <img src="/assets/icons/olimpiadas.png" alt="">
                     Olimpics
                 </li>
-                <li>
+                <li class="item" id="item9" onclick="map();">
                     <img src="/assets/icons/ubicacion.png" alt="">
                     Map
                 </li>
-                <li id="home">Home</li>
+                <li id="home" onclick="inicio();">
+                    Home
+                </li>
+                <li id="menu" onclick="menuResponsivo();" ondblclick="menuNoResponsivo();">
+                    <img src="/assets/icons/menu.png" alt="">
+                </li>
             </ul>
         </nav>
     </header>
+    <main>
+        <section id="seccion1">
+            <h1 id="titulo">イベント - Events</h1>
+            <img src="/assets/Fondos/events.jpg" alt="">
+        </section>
+        <section id="seccion2">
+            <article>
+                <div>
+                    <h2>Christmas - クリスマス</h2>
+                </div>
+                <div>
+                    <h2>Children's day - こどもの日</h2>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <h2>Independence Day - 独立記念日</h2>
+                </div>
+                <div>
+                    <h2>Sports day - 体育の日</h2>
+                </div>
+            </article>
+        </section>
+    </main>
+    <script src="/categorias/script.js"></script>
 </body>
 </html>

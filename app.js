@@ -279,7 +279,13 @@ function Href7(){
     window.open('/categorias/news.html','_self');
 }
 
+function Href8(){
+    window.open('/categorias/olimpics.html','_self');
+}
 
+function Href9(){
+    window.open('/categorias/map.html','_self');
+}
 /*
 function Href8(){
     window.open('/categorias/history.html','_self');

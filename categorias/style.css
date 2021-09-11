@@ -5,7 +5,7 @@
 }
 
 header {
-    width: 100vw;
+    width: 100%;
     height: 90px;
     background-color: rgba(234, 187, 236, 0.2);
 }
@@ -50,6 +50,83 @@ header nav ul li img {
 }
 
 #home:hover {
-    background-color: #400463;
-    color: white;
+    background-color: #fff;
+    color: #1D002E;
+}
+
+.mostrarMenu {
+    left: 0%;
+}
+
+.ocultarMenu {
+    left: -400%;
+}
+
+#menu {
+    display: none;
+}
+
+
+@media (max-width: 870px) {
+    
+    header {
+        height: 60px;
+    }
+    
+    header nav ul li img {
+        height: 30px;
+        width: 30px;
+    }
+
+    header nav ul li {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    #menu {
+        display: flex;
+        height: 60px;
+        width: 60px;
+        position: absolute;
+        left: 5px;
+    }
+
+    #home {
+        display: flex;
+        height: 60px;
+        width: 60px;
+        position: absolute;
+        right: 5px;
+    }*
+
+    header {
+        height: 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    header nav ul{
+        display: flex;
+        align-items: center;
+    }
+    header nav ul {
+        flex-direction: column;
+        align-items: center
+    }
+
+    header nav ul .item {
+        width: 100vw;
+        position:relative;
+        top: 60px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        margin: 5px;
+        background-color: rgba(234, 187, 236, 0.2);
+
+        /*left: -300%*/;
+    }
 }

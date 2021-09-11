@@ -5,55 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>文化 - Culture</title>
+    <link rel="stylesheet" href="/categorias/assetsCulture/cultureStyle.css">
+    <title>美術 - Arts</title>
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <img src="/assets/icons/historia.png" alt="">
-                    History
-                </li>
-                <li>
-                    <img src="/assets/icons/cultura.png" alt="">
-                    Culture
-                </li>
-                <li>
-                    <img src="/assets/icons/gastronomia.png" alt="">
-                    Gastronomy
-                </li>
-                <li>
-                    <img src="/assets/icons/artes.png" alt="">
-                    Arts
-                </li>
-                <li>
-                    <img src="/assets/icons/eventos.png" alt="">
-                    Events
-                </li>
-                <li>
-                    <img src="/assets/icons/destino.png" alt="">
-                    Places
-                </li>
-                <li>
-                    <img src="/assets/icons/personajes.png" alt="">
-                    People
-                </li>
-                <li>
-                    <img src="/assets/icons/noticias.png" alt="">
-                    News
-                </li>
-                <li>
-                    <img src="/assets/icons/olimpiadas.png" alt="">
-                    Olimpics
-                </li>
-                <li>
-                    <img src="/assets/icons/ubicacion.png" alt="">
-                    Map
-                </li>
-                <li id="home">Home</li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <nav>
+        <ul>
+            <li onclick="history();" class="item" id="item">
+                <img src="/assets/icons/historia.png" alt="">
+                History
+            </li>
+            <li class="item" id="item1" onclick="culture();">
+                <img src="/assets/icons/cultura.png" alt="">
+                Culture
+            </li>
+            <li class="item" id="item2" onclick="gastronomy();">
+                <img src="/assets/icons/gastronomia.png" alt="">
+                Gastronomy
+            </li>
+            <li class="item" id="item3" onclick="arts();">
+                <img src="/assets/icons/artes.png" alt="">
+                Arts
+            </li>
+            <li class="item" id="item4" onclick="events();">
+                <img src="/assets/icons/eventos.png" alt="">
+                Events
+            </li>
+            <li class="item" id="item5" onclick="places();">
+                <img src="/assets/icons/destino.png" alt="">
+                Places
+            </li>
+            <li class="item" id="item6" onclick="people();">
+                <img src="/assets/icons/personajes.png" alt="">
+                People
+            </li>
+            <li class="item" id="item7" onclick="news();">
+                <img src="/assets/icons/noticias.png" alt="">
+                News
+            </li>
+            <li class="item" id="item8" onclick="olimpics();">
+                <img src="/assets/icons/olimpiadas.png" alt="">
+                Olimpics
+            </li>
+            <li class="item" id="item9" onclick="map();">
+                <img src="/assets/icons/ubicacion.png" alt="">
+                Map
+            </li>
+            <li id="home" onclick="inicio();">
+                Home
+            </li>
+            <li id="menu" onclick="menuResponsivo();" ondblclick="menuNoResponsivo();">
+                <img src="/assets/icons/menu.png" alt="">
+            </li>
+        </ul>
+    </nav>
+</header>
+    <main>
+        <section id="seccion1">
+            <h1 id="titulo">美術 - Arts</h1>
+            <img src="/assets/Fondos/arts.jpg" alt="">
+        </section>
+        <section id="seccion2">
+            <article>
+                <div>
+                    <h2>Bujutsu - 武術</h2>
+                </div>
+                <div>
+                    <h2>Ninjutsu - 忍術</h2>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <h2>Budo - 武道</h2>
+                </div>
+                <div>
+                    <h2> Karate - 空手</h2>
+                </div>
+            </article>
+        </section>
+    </main>
+    <script src="/categorias/script.js"></script>
 </body>
 </html>
