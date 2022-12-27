@@ -248,7 +248,7 @@ function fondo9rem(){
 /* Aquì se colocan los enlaces de as categorias */
 
 function Href0(){
-    window.open('/categorias/history.html','_self');
+    window.open('/ProjectJapan/categorias/history.html','_self');
 }
 
 function Href1(){
