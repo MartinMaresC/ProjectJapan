@@ -264,7 +264,7 @@ function Href3(){
 }
 
 function Href4(){
-    window.open('/categorias/events.html','_self');
+    window.open('/ProjectJapan/categorias/events.html','_self');
 }
 
 function Href5(){
