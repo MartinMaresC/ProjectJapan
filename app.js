@@ -252,15 +252,15 @@ function Href0(){
 }
 
 function Href1(){
-    window.open('/categorias/culture.html','_self');
+    window.open('/ProjectJapan/categorias/culture.html','_self');
 }
 
 function Href2(){
-    window.open('/categorias/gastronomy.html','_self');
+    window.open('/ProjectJapan/categorias/gastronomy.html','_self');
 }
 
 function Href3(){
-    window.open('/categorias/arts.html','_self');
+    window.open('/ProjectJapan/categorias/arts.html','_self');
 }
 
 function Href4(){
@@ -268,23 +268,23 @@ function Href4(){
 }
 
 function Href5(){
-    window.open('/categorias/places.html','_self');
+    window.open('/ProjectJapan/categorias/places.html','_self');
 }
 
 function Href6(){
-    window.open('/categorias/people.html','_self');
+    window.open('/ProjectJapan/categorias/people.html','_self');
 }
 
 function Href7(){
-    window.open('/categorias/news.html','_self');
+    window.open('/ProjectJapan/categorias/news.html','_self');
 }
 
 function Href8(){
-    window.open('/categorias/olimpics.html','_self');
+    window.open('/ProjectJapan/categorias/olimpics.html','_self');
 }
 
 function Href9(){
-    window.open('/categorias/map.html','_self');
+    window.open('/ProjectJapan/categorias/map.html','_self');
 }
 /*
 function Href8(){
