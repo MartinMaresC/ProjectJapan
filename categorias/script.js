@@ -1,45 +1,45 @@
 function inicio(){
-    window.open('/index.html','_self');
+    window.open('/ProjectJapan/index.html','_self');
 }
 
 function history(){
-    window.open('/categorias/history.html','_self');
+    window.open('/ProjectJapan/categorias/history.html','_self');
 }
 
 function culture(){
-    window.open('/categorias/culture.html','_self');
+    window.open('/ProjectJapan/categorias/culture.html','_self');
 }
 
 function gastronomy(){
-    window.open('/categorias/gastronomy.html','_self');
+    window.open('/ProjectJapan/categorias/gastronomy.html','_self');
 }
 
 function arts(){
-    window.open('/categorias/arts.html','_self');
+    window.open('/ProjectJapan/categorias/arts.html','_self');
 }
 
 function events(){
-    window.open('/categorias/events.html','_self');
+    window.open('/ProjectJapan/categorias/events.html','_self');
 }
 
 function places(){
-    window.open('/categorias/places.html','_self');
+    window.open('/ProjectJapan/categorias/places.html','_self');
 }
 
 function people(){
-    window.open('/categorias/people.html','_self');
+    window.open('/ProjectJapan/categorias/people.html','_self');
 }
 
 function news(){
-    window.open('/categorias/news.html','_self');
+    window.open('/ProjectJapan/categorias/news.html','_self');
 }
 
 function olimpics(){
-    window.open('/categorias/olimpics.html','_self');
+    window.open('/ProjectJapan/categorias/olimpics.html','_self');
 }
 
 function map(){
-    window.open('/categorias/map.html','_self');
+    window.open('/ProjectJapan/categorias/map.html','_self');
 }
 
 var x =0;
