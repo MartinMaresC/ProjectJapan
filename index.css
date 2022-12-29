@@ -53,7 +53,7 @@ main {
     height: 350px;
     width: 250px;
     font-size: 20px;
-    background-color: #black; /* rgba(255, 255, 255, 0.4);*/
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 .categoria:hover {
@@ -107,39 +107,39 @@ main {
 }
 
 .containerPrincipal {
-    background-image: url(/assets/Fondos/principal.jpg);
+    background-image: url(/ProjectJapan/assets/Fondos/principal.jpg);
 }
 
 .background-history {
-    background-image: url(/assets/Fondos/history.png);
+    background-image: url(/ProjectJapan/assets/Fondos/history.png);
 }
 
 .background-culture {
-    background-image: url(/assets/Fondos/culture.jpg);
+    background-image: url(/ProjectJapan/assets/Fondos/culture.jpg);
 }
 .background-gastronomy {
-    background-image: url(/assets/Fondos/gastronomy.jpg);
+    background-image: url(/ProjectJapan/assets/Fondos/gastronomy.jpg);
 }
 .background-news {
-    background-image: url(/assets/Fondos/news.jpg);
+    background-image: url(/ProjectJapan/assets/Fondos/news.jpg);
 }
 .background-arts {
-    background-image: url(/assets/Fondos/arts.jpg);
+    background-image: url(/ProjectJapan/assets/Fondos/arts.jpg);
 }
 .background-events {
-    background-image: url(/assets/Fondos/events.jpg);
+    background-image: url(/ProjectJapan/assets/Fondos/events.jpg);
 }
 .background-people {
-    background-image: url(/assets/Fondos/people.png);
+    background-image: url(/ProjectJapan/assets/Fondos/people.png);
 }
 .background-places {
-    background-image: url(/assets/Fondos/places.jpg);
+    background-image: url(/ProjectJapan/assets/Fondos/places.jpg);
 }
 .background-olimpics {
-    background-image: url(/assets/Fondos/olimpics.jpg);
+    background-image: url(/ProjectJapan/assets/Fondos/olimpics.jpg);
 }
 .background-map {
-    background-image: url(/assets/Fondos/maps.png);
+    background-image: url(/ProjectJapan/assets/Fondos/maps.png);
 }
 
 @media (max-width: 1400px) {
