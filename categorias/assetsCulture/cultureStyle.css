@@ -12,6 +12,7 @@ main {
     overflow: hidden;
     align-items: center;
     justify-content: center;
+    z-index: -1;
 }
 
 #titulo {
@@ -19,6 +20,7 @@ main {
     color: #1d002ea1;
     text-transform: uppercase;
     font-size: 90px;
+    z-index: -1;
 } 
 
 #seccion2 {
