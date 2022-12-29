@@ -107,7 +107,7 @@ main {
 }
 
 .containerPrincipal {
-    background-image: url(/ProjectJapan/assets/Fondos/principal.jpg);
+    background-image: url (https://github.com/MartinMaresC/ProjectJapan/blob/main/assets/Fondos/principal.jpg); /*url(/ProjectJapan/assets/Fondos/principal.jpg);*/
 }
 
 .background-history {
