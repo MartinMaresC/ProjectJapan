@@ -241,15 +241,15 @@ main {
 
 @media (max-width: 700px) {
     .categoria {
-        height: 80px;
-        width: 80px;
+        height: 60px;
+        width: 60px;
         font-size: 10px;
         padding: 0px;
     }
 
     .categoria:hover {
-        height: 90px;
-        width: 90px;
+        height: 80px;
+        width: 80px;
     }
 
     .categoria p {
